@@ -1049,7 +1049,7 @@ var Safari_IOS_18_5 = ClientProfile{
 						tls.PKCS1WithSHA256,
 						tls.ECDSAWithP384AndSHA384,
 						tls.PSSWithSHA384,
-						tls.PSSWithSHA384,
+						tls.PSSWithSHA384, // Note : Répété dans votre log "vrai appareil", vérifiez si utls le gère ou supprimez le doublon si nécessaire
 						tls.PKCS1WithSHA384,
 						tls.PSSWithSHA512,
 						tls.PKCS1WithSHA512,
